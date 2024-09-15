@@ -1,5 +1,17 @@
 # VolleyBot
 
+## Introduction
+VolleyBot is a Discord bot that helps you find available volleyball courts at [Olympic Park Sports Hall](https://secure.activecarrot.com/public/facility/browse/487/1848). After running a command, it provides you with available booking times. Use this bot to plan and schedule your court bookings.
+
+## Features
+Court Availability: Finds court availability at the specified sports hall.
+Weekdays: Filters out courts that cannot be booked past 7 PM.
+Weekends: Shows all available times.
+## Commands
+`?courts [X]` : Provides court availability for the next [X] days (default is 7 days).
+`?next [Y] [X]` : Shows court availability starting [Y] weeks ahead for the next [X] days (default is 1 week ahead and 7 days).
+
+
 Setup Instructions
 1. **Clone the Repository:** Clone this repository to your local machine using the following command:
 ```bash
